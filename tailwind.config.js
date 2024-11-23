@@ -1,8 +1,13 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
     theme: {
         extend: {
+            fontFamily: {
+                sarala: ['Sarala', 'sans-serif'],
+                inter: ['Inter', 'sans-serif'],
+            },
             colors: {
                 'main-color': {
                     DEFAULT: '#101728',
@@ -25,15 +30,21 @@ export default {
                     500: '#4d545e',
                     600: '#2a2e34',
                 },
-                white: '#ffffff',
                 /* colors for buttons */
-                active: '#3462c1',
-                default: '#5291df',
-                disabled: '#f1f7fd',
-                'disabled-text': '#73aee7',
-                hover: '#3e75d2',
+                buttons: {
+                    active: '#3462c1',
+                    default: '#5291df',
+                    disabled: '#f1f7fd',
+                    'disabled-text': '#73aee7',
+                    hover: '#3e75d2',
+                },
+                white: '#ffffff',
+            },
+            spacing: {
+                desktop: '32px',
+                tablet: '24px', 
+                mobile: '16px',
             },
         },
     },
-    plugins: [],
 };
