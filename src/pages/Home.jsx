@@ -1,10 +1,12 @@
 import '../assets/styles/global.css';
 import 'tailwindcss/tailwind.css';
 
+import Header from '../components/Header/Header.jsx';
+
 function Home() {
     return (
-        <div className="w-screen h-screen flex justify-center items-center">
-            <h1>Home</h1>
+        <div className="w-screen h-screen flex flex-col">
+            <Header></Header>
         </div>
     );
 }

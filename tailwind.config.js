@@ -41,7 +41,7 @@ export default {
                 white: '#ffffff',
             },
             spacing: {
-                desktop: '32px',
+                desktop: '16px 32px',
                 tablet: '24px', 
                 mobile: '16px',
             },
