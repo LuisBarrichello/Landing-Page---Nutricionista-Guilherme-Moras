@@ -4,6 +4,9 @@ export default {
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
     theme: {
         extend: {
+            backgroundImage: {
+                'hero-pattern': "url('/src/assets/images/academia.webp')",
+            },
             fontFamily: {
                 sarala: ['Sarala', 'sans-serif'],
                 inter: ['Inter', 'sans-serif'],
