@@ -24,7 +24,7 @@ const AboutMe = () => {
 };
 
 const ContentSectionWrapper = ({ contentTexts }) => (
-    <div className="flex items-center flex-col gap-6 md:w-1/2">
+    <div className="flex items-center flex-col gap-6 md:w-2/3">
         <div className="flex flex-col items-center md:items-start gap-3 w-full">
             <HeadingSection
                 heading="Olá, eu sou o"
