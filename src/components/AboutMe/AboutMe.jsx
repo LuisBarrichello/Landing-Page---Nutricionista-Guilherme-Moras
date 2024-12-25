@@ -44,7 +44,7 @@ const ContentSectionWrapper = ({ contentTexts }) => (
                 ></ContentSection>
             ))}
             <ContentSection
-                className="font-bold text-center md:text-start"
+                className="w-full font-bold text-center md:text-start"
                 content="Vamos juntos transformar a nutrição no seu maior diferencial?"
             ></ContentSection>
         </div>
