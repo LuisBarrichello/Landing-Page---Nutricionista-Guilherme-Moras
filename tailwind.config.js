@@ -45,7 +45,7 @@ export default {
             },
             spacing: {
                 desktop: '32px 64px',
-                tablet: '24px 32px', 
+                tablet: '24px 32px',
                 mobile: '14px',
             },
         },

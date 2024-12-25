@@ -18,7 +18,7 @@ const Services = () => {
     ];
     return (
         <section id="servicos" className="p-mobile sm:p-tablet md:p-desktop">
-            <div className="flex md:flex-row flex-col-reverse md:flex-row w-full gap-16 items-center justify-center">
+            <div className="flex md:flex-row flex-col-reverse w-full gap-16 items-center justify-center">
                 <div className="flex items-center md:items-start flex-col gap-6 md:w-2/3">
                     <div className="flex flex-col items-center md:items-start gap-3 w-full">
                         <HeadingSection
