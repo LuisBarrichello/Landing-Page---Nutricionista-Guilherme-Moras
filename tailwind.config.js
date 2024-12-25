@@ -48,15 +48,6 @@ export default {
                 tablet: '24px 32px',
                 mobile: '14px',
             },
-            animation: {
-                scroll: 'scroll 20s linear infinite',
-            },
-            keyframes: {
-                scroll: {
-                    '0%': { transform: 'translateX(0)' },
-                    '100%': { transform: 'translateX(-100%)' },
-                },
-            },
         },
     },
 };
