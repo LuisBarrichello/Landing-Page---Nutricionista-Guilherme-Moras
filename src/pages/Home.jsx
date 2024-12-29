@@ -6,6 +6,7 @@ import Hero from '../components/Hero/Hero';
 import AboutMe from '../components/AboutMe/AboutMe';
 import Services from '../components/Services/Services';
 import CallToAction from '../components/CallToAction/CallToAction';
+import ServiceDetails from '../components/ServiceDetails/ServiceDetails';
 
 function Home() {
     return (
@@ -15,8 +16,9 @@ function Home() {
             <AboutMe />
             <Services />
             <CallToAction />
+            <ServiceDetails />
         </div>
-    );
+    );  
 }
 
 export default Home;
