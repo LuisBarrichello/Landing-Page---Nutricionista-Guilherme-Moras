@@ -13,7 +13,7 @@ const ServiceDetails = () => {
         'Com base nessa análise, estruturo um protocolo alimentar detalhado, que é elaborado e entregue em pouco tempo, garantindo que a dieta seja ajustada às preferências alimentares do paciente. Se necessário, exames complementares podem ser solicitados para um diagnóstico mais preciso.',
     ];
     return (
-        <section className="p-mobile sm:p-tablet md:p-desktop mt-2">
+        <section className="p-mobile sm:p-tablet md:p-desktop my-2">
             <div className="h-full flex flex-col md:flex-row gap-16">
                 <div className="flex gap-4 justify-center items-center h-full md:w-1/2 xl:w-1/3">
                     <figure className="relative md:bottom-3 rounded-lg overflow-hidden">
