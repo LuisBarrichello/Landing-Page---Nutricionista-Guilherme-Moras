@@ -39,7 +39,7 @@ const Services = () => {
                         <ContentSection
                             className="w-full font-bold text-center md:text-start"
                             content="Vamos juntos transformar sua alimentação em uma ferramenta poderosa para alcançar seus objetivos!"></ContentSection>
-                        <div className="w-full">
+                        <div className="w-full flex justify-center md:justify-start">
                             <Button></Button>
                         </div>
                     </div>

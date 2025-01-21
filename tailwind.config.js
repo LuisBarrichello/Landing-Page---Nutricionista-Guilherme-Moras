@@ -6,6 +6,14 @@ export default {
         extend: {
             backgroundImage: {
                 'hero-pattern': "url('/src/assets/images/academia.webp')",
+                'custom-pattern':
+                    'radial-gradient(rgba(12, 12, 12, 0.171) 1.1px, transparent 0)',
+            },
+            backgroundSize: {
+                'custom-size': '15px 15px',
+            },
+            backgroundPosition: {
+                'custom-positon': '-5px -5px',
             },
             fontFamily: {
                 sarala: ['Sarala', 'sans-serif'],
@@ -47,6 +55,9 @@ export default {
                 desktop: '32px 64px',
                 tablet: '24px 32px',
                 mobile: '14px',
+            },
+            boxShadow: {
+                boxShadowCardReview: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
             },
         },
     },
