@@ -53,7 +53,7 @@ const Reviews = () => {
                             <CardReview
                                 key={index}
                                 image={review.image}
-                                alt=""
+                                alt={`foto do ${review.name} que fez o comentario `}
                                 name={review.name}
                                 profession={review.profession}
                                 review={review.review}

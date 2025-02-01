@@ -1,13 +1,16 @@
-import '../assets/styles/global.css';
 import 'tailwindcss/tailwind.css';
+import '../assets/styles/global.css';
 
+import AboutMe from '../components/AboutMe/AboutMe';
+import CallToAction from '../components/CallToAction/CallToAction';
 import Header from '../components/Header/Header';
 import Hero from '../components/Hero/Hero';
-import AboutMe from '../components/AboutMe/AboutMe';
-import Services from '../components/Services/Services';
-import CallToAction from '../components/CallToAction/CallToAction';
-import ServiceDetails from '../components/ServiceDetails/ServiceDetails';
 import Reviews from '../components/Reviews/Reviews';
+import ServiceDetails from '../components/ServiceDetails/ServiceDetails';
+import Services from '../components/Services/Services';
+import FollowInstagram from '../components/FollowInstagram/FollowInstagram';
+import Location from '../components/Location/Location';
+import Footer from '../components/Footer/Footer';
 
 function Home() {
     return (
@@ -19,8 +22,11 @@ function Home() {
             <CallToAction />
             <ServiceDetails />
             <Reviews />
+            <FollowInstagram />
+            <Location />
+            <Footer />
         </div>
-    );  
+    );
 }
 
 export default Home;
