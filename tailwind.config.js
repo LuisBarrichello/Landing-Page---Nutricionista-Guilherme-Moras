@@ -6,6 +6,7 @@ export default {
         extend: {
             backgroundImage: {
                 'hero-pattern': "url('/src/assets/images/academia.webp')",
+                'instagram-pattern': "url('/src/assets/images/bowl_of_fruit.webp')",
                 'custom-pattern':
                     'radial-gradient(rgba(12, 12, 12, 0.171) 1.1px, transparent 0)',
             },

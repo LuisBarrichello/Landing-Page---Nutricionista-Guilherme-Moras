@@ -23,7 +23,7 @@ const CardReview = (props) => {
 };
 
 CardReview.propTypes = {
-    image: PropTypes.string.isRequered,
+    image: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     profession: PropTypes.string.isRequired,
     review: PropTypes.string.isRequired,

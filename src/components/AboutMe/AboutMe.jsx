@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 const AboutMe = () => {
     const contentTexts = [
         'Meu objetivo é desenvolver planos alimentares personalizados que atendam às demandas específicas do seu esporte e objetivos. Vamos juntos transformar a nutrição em uma aliada poderosa na sua jornada!',
-        'Trabalho para criar planos alimentares personalizados, alinhados às suas preferências, estilo de vida e metas individuais, sejam elas melhorar sua performance esportiva, alcançar o equilíbrio nutricional ou promover bem-estar geral.',
+        'Como nutricionista clínico e esportivo, meu foco é otimizar sua performance atlética por meio de uma alimentação estratégica.',
         'Trabalho para criar planos alimentares personalizados, alinhados às suas preferências, estilo de vida e metas individuais, sejam elas melhorar sua performance esportiva, alcançar o equilíbrio nutricional ou promover bem-estar geral.',
     ];
     return (
@@ -35,7 +35,7 @@ const ContentSectionWrapper = ({ contentTexts }) => (
                 className="text-main-color-500 text-3xl sm:text-4xl text-center md:text-start"
             ></HeadingSection>
         </div>
-        <div className="flex flex-col gap-4 items-center">
+        <div className="flex flex-col gap-4 items-start">
             {contentTexts.map((text, index) => (
                 <ContentSection
                     key={index}
