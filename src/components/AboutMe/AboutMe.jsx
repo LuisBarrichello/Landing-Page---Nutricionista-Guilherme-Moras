@@ -11,7 +11,7 @@ const AboutMe = () => {
         'Trabalho para criar planos alimentares personalizados, alinhados às suas preferências, estilo de vida e metas individuais, sejam elas melhorar sua performance esportiva, alcançar o equilíbrio nutricional ou promover bem-estar geral.',
     ];
     return (
-        <section className="p-mobile sm:p-tablet md:p-desktop">
+        <section id="about" className="p-mobile sm:p-tablet md:p-desktop">
             <div className="flex flex-col md:flex-row w-full gap-16 items-center justify-center">
                 <ImageSection
                     image={GuilhermeImg}

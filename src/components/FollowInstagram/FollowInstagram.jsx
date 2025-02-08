@@ -3,7 +3,9 @@ import Heading from '../common/Heading/HeadingSection';
 
 const FollowInstagram = () => {
     return (
-        <section className="p-mobile sm:p-tablet md:p-desktop bg-instagram-pattern bg-center bg-no-repeat w-full relative">
+        <section
+            id="instagram"
+            className="p-mobile sm:p-tablet md:p-desktop bg-instagram-pattern bg-center bg-no-repeat w-full relative">
             {/* Sobreposição de cor */}
             <div className="absolute inset-0 bg-main-color opacity-75 "></div>
             <div className="z-10 relative w-full flex flex-col items-center justify-center gap-10">

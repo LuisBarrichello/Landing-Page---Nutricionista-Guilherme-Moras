@@ -38,6 +38,11 @@
     bottom: var(--pos-y-bar-three);
     transform: rotate(var(--rotate-bar-three));
     transition: bottom 200ms 100ms, transform 100ms;
+
+}
+
+.bar--1.open, .bar--3.open {
+    background-color: white;
 }
 
 .check-icon:checked + .icon-menu > .bar--1 {
