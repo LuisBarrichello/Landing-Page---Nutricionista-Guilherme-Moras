@@ -11,6 +11,7 @@ import Services from '../components/Services/Services';
 import FollowInstagram from '../components/FollowInstagram/FollowInstagram';
 import Location from '../components/Location/Location';
 import Footer from '../components/Footer/Footer';
+import FloatingButtons from '../components/common/FloatingButtons/FloatingButtons'
 
 function Home() {
     return (
@@ -25,6 +26,7 @@ function Home() {
             <FollowInstagram />
             <Location />
             <Footer />
+            <FloatingButtons />
         </div>
     );
 }

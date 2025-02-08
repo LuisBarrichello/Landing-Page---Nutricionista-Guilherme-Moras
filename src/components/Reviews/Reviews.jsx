@@ -37,8 +37,10 @@ const Reviews = () => {
     ];
 
     return (
-        <section className="p-mobile sm:p-tablet md:p-desktop bg-white bg-custom-pattern bg-custom-size bg-custom-positon">
-            <div className='w-full flex flex-col gap-8 mb-9'>
+        <section
+            id="statements"
+            className="p-mobile sm:p-tablet md:p-desktop bg-white bg-custom-pattern bg-custom-size bg-custom-positon">
+            <div className="w-full flex flex-col gap-8 mb-9">
                 <div className="w-full mb-5 flex flex-col gap-3">
                     <Heading
                         className={'text-center'}

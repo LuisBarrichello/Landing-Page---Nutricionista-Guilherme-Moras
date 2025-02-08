@@ -13,7 +13,9 @@ const ServiceDetails = () => {
         'Com base nessa análise, estruturo um protocolo alimentar detalhado, que é elaborado e entregue em pouco tempo, garantindo que a dieta seja ajustada às preferências alimentares do paciente. Se necessário, exames complementares podem ser solicitados para um diagnóstico mais preciso.',
     ];
     return (
-        <section className="p-mobile sm:p-tablet md:p-desktop my-2">
+        <section
+            id="assistance"
+            className="p-mobile sm:p-tablet md:p-desktop my-2">
             <div className="h-full flex flex-col md:flex-row gap-16">
                 <div className="flex gap-4 justify-center items-center h-full md:w-1/2 xl:w-1/3">
                     <figure className="relative md:bottom-3 rounded-lg overflow-hidden">
@@ -24,7 +26,10 @@ const ServiceDetails = () => {
                     <figure className="relative md:top-3 rounded-lg overflow-hidden">
                         {/* Gradiente aplicado ao contêiner */}
                         <div className="absolute inset-0 bg-gradient-to-b from-main-color-50/20 to-main-color/80"></div>
-                        <img src={whey_protein} alt="homem segurando uma garrafa com suplemento" />
+                        <img
+                            src={whey_protein}
+                            alt="homem segurando uma garrafa com suplemento"
+                        />
                     </figure>
                 </div>
                 <div className="h-full flex flex-col gap-4 items-center md:items-start justify-center md:w-2/3">

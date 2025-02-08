@@ -10,12 +10,22 @@ const Header = () => {
         setMenuOpen(!menuOpen);
     };
 
+    const closeMenu = () => {
+        setMenuOpen(false);
+    };
+
     return (
         <>
-            <header className="w-full p-desktop flex justify-between items-center md:shadow md:items gap-1">
+            <header className="w-full p-mobile md:p-tablet lg:p-desktop flex justify-between items-center md:shadow md:items gap-1">
                 <Logo></Logo>
-                <Navigation menuOpen={menuOpen} />
-                <MenuHamburguer toggleMenu={toggleMenu} menuOpen={menuOpen} />
+                <Navigation
+                    menuOpen={menuOpen}
+                    closeMenu={closeMenu}
+                />
+                <MenuHamburguer
+                    toggleMenu={toggleMenu}
+                    menuMobileOpen={menuOpen}
+                />
             </header>
         </>
     );
