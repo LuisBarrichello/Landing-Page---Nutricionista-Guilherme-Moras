@@ -26,7 +26,7 @@ const Footer = () => {
                     </div>
                     <div className="m-2 flex flex-col items-center justify-center md:items-start md:flex-row md:gap-2">
                         <p>
-                            Desenvovido por{' '}
+                            Desenvolvido por{' '}
                             <a
                                 href="https://www.linkedin.com/in/luisgabrielbarrichello/"
                                 target="_blank"
